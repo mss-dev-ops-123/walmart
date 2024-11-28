@@ -1,0 +1,219 @@
+1. File and Directory Management
+ls: List files and directories.
+
+bash
+Copy code
+ls -l      # Long listing with details
+ls -a      # Include hidden files
+cd: Change directory.
+
+bash
+Copy code
+cd /path/to/directory
+cd ..      # Move up one directory
+cd ~       # Go to home directory
+pwd: Print the current working directory.
+
+bash
+Copy code
+pwd
+mkdir: Create a new directory.
+
+bash
+Copy code
+mkdir my_folder
+rmdir: Remove an empty directory.
+
+bash
+Copy code
+rmdir my_folder
+rm: Remove files or directories.
+
+bash
+Copy code
+rm file.txt                  # Remove file
+rm -r directory              # Remove directory and its contents
+cp: Copy files or directories.
+
+bash
+Copy code
+cp source.txt destination.txt
+cp -r source_folder target_folder
+mv: Move or rename files.
+
+bash
+Copy code
+mv old_name.txt new_name.txt
+mv /source/path /target/path
+2. File Viewing and Editing
+cat: View file contents.
+
+bash
+Copy code
+cat file.txt
+less: View large files one page at a time.
+
+bash
+Copy code
+less large_file.txt
+head: View the first few lines of a file.
+
+bash
+Copy code
+head file.txt
+tail: View the last few lines of a file.
+
+bash
+Copy code
+tail file.txt
+tail -f log.txt  # Follow live updates
+nano: Edit a file with the Nano text editor.
+
+bash
+Copy code
+nano file.txt
+vi or vim: Edit a file with the Vi or Vim editor.
+
+bash
+Copy code
+vi file.txt
+3. User Management
+whoami: Show the current user.
+
+bash
+Copy code
+whoami
+id: Display user ID and group ID.
+
+bash
+Copy code
+id
+adduser: Add a new user.
+
+bash
+Copy code
+sudo adduser username
+passwd: Change a user's password.
+
+bash
+Copy code
+passwd
+su: Switch to another user.
+
+bash
+Copy code
+su username
+4. Permissions and Ownership
+chmod: Change file permissions.
+
+bash
+Copy code
+chmod 755 file.txt  # Owner can read, write, execute; others can read and execute
+chown: Change file owner.
+
+bash
+Copy code
+sudo chown user:group file.txt
+5. Process Management
+ps: View running processes.
+
+bash
+Copy code
+ps aux
+top: Monitor system resource usage.
+
+bash
+Copy code
+top
+kill: Terminate a process by PID.
+
+bash
+Copy code
+kill 1234
+killall: Terminate processes by name.
+
+bash
+Copy code
+killall firefox
+6. Disk and File System Management
+df: Display disk space usage.
+
+bash
+Copy code
+df -h   # Human-readable format
+du: Display directory size.
+
+bash
+Copy code
+du -sh /path/to/directory
+mount: Mount a file system.
+
+bash
+Copy code
+sudo mount /dev/sdb1 /mnt
+umount: Unmount a file system.
+
+bash
+Copy code
+sudo umount /mnt
+7. Networking Commands
+ping: Test network connectivity.
+
+bash
+Copy code
+ping google.com
+ifconfig: Display or configure network interfaces (deprecated, use ip).
+
+bash
+Copy code
+ifconfig
+ip: Manage IP addresses and routes.
+
+bash
+Copy code
+ip addr show
+ip route show
+curl: Transfer data from or to a server.
+
+bash
+Copy code
+curl http://example.com
+wget: Download files from the web.
+
+bash
+Copy code
+wget http://example.com/file.zip
+8. Package Management (Ubuntu/Debian)
+apt update: Update package lists.
+
+bash
+Copy code
+sudo apt update
+apt upgrade: Upgrade installed packages.
+
+bash
+Copy code
+sudo apt upgrade
+apt install: Install a new package.
+
+bash
+Copy code
+sudo apt install package-name
+apt remove: Remove a package.
+
+bash
+Copy code
+sudo apt remove package-name
+Let me know if you need more details or examples of any command! 😊
+
+
+
+
+
+
+
+
+
+
+
+
